@@ -1,2 +1,2 @@
 # html-css
- anotacoes das aulas do curdo em video
+ anotacoes das aulas do curso em video
