@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
@@ -13,11 +13,18 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
         }
 
+        /* Shorthand - background
+            color > image > position > repeat > [size] > attachment
+
+            background: black url() center center no-repeat cover fixed;  cover nao funcionou, entao adicionar
+            background-size: cover
+        */
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -38,6 +45,13 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum saepe fugiat accusantium error asperiores
             molestiae impedit quam repellat dolorum est reiciendis alias dicta, ex nesciunt tempora, adipisci
             necessitatibus deserunt nihil.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet in tempora provident perferendis veritatis reprehenderit numquam reiciendis placeat. Quidem optio doloribus ad facilis accusamus natus consectetur officia deleniti labore pariatur!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam magni commodi impedit earum, doloremque dolore eveniet doloribus ullam minus officia illum provident eum repellat sequi blanditiis nobis nulla! Esse, harum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est mollitia atque delectus? Ipsum, suscipit eius laudantium dolorem, obcaecati provident nobis eaque incidunt reiciendis, dolore assumenda. Veritatis repellendus quasi error inventore.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet in tempora provident perferendis veritatis reprehenderit numquam reiciendis placeat. Quidem optio doloribus ad facilis accusamus natus consectetur officia deleniti labore pariatur!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam magni commodi impedit earum, doloremque dolore eveniet doloribus ullam minus officia illum provident eum repellat sequi blanditiis nobis nulla! Esse, harum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est mollitia atque delectus? Ipsum, suscipit eius laudantium dolorem, obcaecati provident nobis eaque incidunt reiciendis, dolore assumenda. Veritatis repellendus quasi error inventore.
+            </p>
 
     </main>
 </body>
