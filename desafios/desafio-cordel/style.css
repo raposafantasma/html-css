@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --titulo: 'Passion One', bolder;
+    --texto: 'Sriracha', cursive;
+}
+
+* {
+    font-family: var(--texto);
+    color: black;
+    line-height: 1em;
+    font-size: 18px;
+}
+
+body {
+    margin: 0px;
+    background-color: lightgray;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+header>h1 {
+    font-family: var(--titulo);
+    font-size: 4em;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+}
+
+header>p {
+    padding-bottom: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#estrofe01,
+#estrofe03e04,
+#estrofe06e07 {
+    background-color: white;
+    padding: 10px 10px 10px 15px;
+}
+
+section#estrofe02 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    box-shadow: inset 5px 2px 15px rgba(0, 0, 0, 0.534);
+}
+
+section#estrofe02>div {
+    background-color: #0217028c;
+    width: 220px;
+    padding-left: 5px;
+}
+
+section#estrofe02>div>p {
+    color: white;
+}
+
+#estrofe05 {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    padding: 10px;
+    background-attachment: fixed;
+    box-shadow: inset 5px 2px 15px rgba(0, 0, 0, 0.534);
+}
+
+#estrofe05>div {
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 220px;
+    padding: 2px 2px 2px 5px;
+}
+
+#estrofe05>div>p {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer>p {
+    color: white;
+    font-family: verdana;
+    margin: 0px;
+}
+
+footer>p>span {
+    color: white;
+    font-weight: bold;
+    font-family: verdana;
+}
