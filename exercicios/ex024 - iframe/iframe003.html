@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae nam neque aperiam quam eius est nulla,
+        perferendis cumque doloremque maiores aut sint, hic eos aspernatur nisi ullam vel praesentium ratione?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni deserunt soluta dignissimos qui ipsa. Sequi
+        deserunt dicta incidunt magnam quia asperiores doloremque quod sunt optio, veritatis pariatur, magni, sit
+        obcaecati? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quis magnam ipsa pariatur
+        consequuntur aperiam sit? Quis pariatur tempora vel repudiandae assumenda quo fugit, architecto nemo, excepturi
+        eligendi aliquam eaque?</p>
+
+    <iframe name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, error cum dicta ad dignissimos officiis incidunt! Dolor, deserunt inventore reiciendis aliquam excepturi quia velit ex, laborum veniam dolores, molestiae architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut deleniti minima. Deserunt, perspiciatis eligendi quibusdam exercitationem accusantium sapiente nam suscipit dignissimos sunt quaerat aliquam in maiores obcaecati harum cupiditate!</p>">
+        <p>Não é compatível</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, error cum dicta ad dignissimos officiis incidunt! Dolor, deserunt inventore reiciendis aliquam excepturi quia velit ex, laborum veniam dolores, molestiae architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut deleniti minima. Deserunt, perspiciatis eligendi quibusdam exercitationem accusantium sapiente nam suscipit dignissimos sunt quaerat aliquam in maiores obcaecati harum cupiditate!</p>
+</body>
+
+</html>
